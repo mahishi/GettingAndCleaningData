@@ -12,7 +12,7 @@ run_analysis(), is the top level function that we call from R Console. This func
 * step_04()
 * step_05() 
 
-All data needed for this project is placed under folder called "data" in current working directory of R project. This data folder will follow the same path structure as was given to us in zip file.
+All data needed for this project is placed under folder called **"data"** in current working directory of R project. This data folder will follow the same path structure as was given to us in zip file.
 
 Data files used for analysis are the following.
 * data/activity_labels.txt
