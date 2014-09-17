@@ -24,7 +24,7 @@ Data files used for analysis are the following.
 * data/test/y_test.txt
 
 ######step_01
-*Read training data: Dimension = 7352 x 561*
+* *Read training data: Dimension = 7352 x 561*
 *Read test data: Dimension = 2947 x 561*
 *Row bound combined data: Dimension = 10299 x  561*
 
