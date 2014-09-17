@@ -24,13 +24,13 @@ Data files used for analysis are the following.
 * data/test/y_test.txt
 
 ######step_01
-** Read training data: Dimension = 7352 x 561 **
-** Read test data: Dimension = 2947 x 561 **
-** Row bound combined data: Dimension = 10299 x  561 **
+*Read training data: Dimension = 7352 x 561*
+*Read test data: Dimension = 2947 x 561*
+*Row bound combined data: Dimension = 10299 x  561*
 
 ######Step_02
 From the full data set created in step_01, we take only the required measurements. Variable names that have a mean or std in them. A total of 86 columns are there that has mean or std in names. 
-** Required combined data data: Dimension = 10299 x 86 **
+*Required combined data data: Dimension = 10299 x 86*
 
 ######Step_03
 
