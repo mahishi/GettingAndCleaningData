@@ -1,6 +1,5 @@
-###Run Analysis
+####Run Analysis
 
-Project 
 run_analysis() function calls 5 functions to produce the desired tidy data output.
 
 Course Project has 5 steps in it. Functionality of each of these steps is split into a function so it is easy to follow.
@@ -24,3 +23,15 @@ Data files used for analysis are the following.
 * data/test/X_test.txt
 * data/test/y_test.txt
 
+######Step_01
+* Read training data: Dimension = 7352 x 561
+* Read test data: Dimension = 2947 x 561
+* Row bound combined data: Dimension = 10299 x  561
+
+Step_02
+
+Step_03
+
+Step_04
+
+Step_05
