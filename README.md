@@ -37,6 +37,7 @@ After taking those 86 columns, change their names (Remove unwanted "-" and "()" 
 * *Read training activity number data: Dimensiton = 7352 x 1*
 * *Read test activity number data: Dimensiton = 2947 x 1*
 * *Row bound combined activity number data: Dimensiton = 10299 x 1*
+
 Read activity names from file and replace these activity numbers with activity names. Then column bind these activity names dataset with the required columns data set that we produced in step_02 above. 
 * *Required columns data set with descriptive activity names: Dimension = 10299 x 87*
 
@@ -48,8 +49,10 @@ Take data created in step_03() above. Also take the changed variable names that 
 * *Read training subnect number data: Dimensiton = 7352 x 1*
 * *Read test subject number data: Dimensiton = 2947 x 1* 
 * *Row bound combined subject number data: Dimensiton = 10299 x 1*
+
 Column bind this subject number data set with our data set created in step_04 above.
 * *New data set created: Dimension = 12099 x 88*
+
 Now group this data set by subject and activity name and take averages of all the other 86 columns. 
 * *Final tidy data set: Dimension = 180 x 88*
 
