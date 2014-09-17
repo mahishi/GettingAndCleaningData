@@ -41,6 +41,15 @@ Read activity names from file and replace these activity numbers with activity n
 * *Required columns data set with descriptive activity names: Dimension = 10299 x 87*
 
 ######Step_04 (Appropriately labels the data set with descriptive variable names)
+Take data created in step_03() above. Also take the changed variable names that we created in step_02() above. Give those variable names to the dataset. 
+* *Data set with variable names: Dimension = 10299 x 87* There is no change in dimension at this point. We just changed variable names.
 
 ######Step_05 (From the data set in step 4, creates an independent tidy data set with average of each variable for each activity and each subject)
+* *Read training subnect number data: Dimensiton = 7352 x 1*
+* *Read test subject number data: Dimensiton = 2947 x 1* 
+* *Row bound combined subject number data: Dimensiton = 10299 x 1*
+Column bind this subject number data set with our data set created in step_04 above.
+* *New data set created: Dimension = 12099 x 88*
+Now group this data set by subject and activity name and take averages of all the other 86 columns. 
+* *Final tidy data set: Dimension = 180 x 88*
 
