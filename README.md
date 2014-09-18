@@ -51,7 +51,7 @@ Take data created in step_03() above. Also take the changed variable names that 
 * *Row bound combined subject number data: Dimensiton = 10299 x 1*
 
 Column bind this subject number data set with our data set created in step_04 above.
-* *New data set created: Dimension = 12099 x 88*
+* *New data set created: Dimension = 10299 x 88*
 
 Now group this data set by subject and activity name and take averages of all the other 86 columns. 
 * *Final tidy data set: Dimension = 180 x 88*
