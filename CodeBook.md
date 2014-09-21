@@ -4,7 +4,6 @@
 
 Tidy Data Column Name | Tidy Data Column Definition
 ----------------------|----------------------------
-
 	subject	 |	Number of the subject on whom we have the measurement
 	activity_name	 |	Activity Name on which we have the measurement
 	tBodyAcc.mean.X	 |	Time Domain Body Acceleration Mean On X Axiz
