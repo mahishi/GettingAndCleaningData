@@ -1,6 +1,9 @@
 ####Code book for Tidy Data
 
-###### Tidy Data is the output of the Project. It has mean of 86 measurements for 30 subjects with 6 different activities. So we have a total of 88 columns (Including Subject and Activity Name) and we have a total of 180 records (30 times 6). These 86 measurements can be a mean of means or mean of standard deviations.
+###### Tidy Data is the output of the Project. 
+* Tidy Data has mean of 86 measurements for 30 subjects with 6 different activities. These 86 measurements can be a mean of means or mean of standard deviations.
+* Tidy Data has a total of 88 columns (Including Subject and Activity Name)
+* Tidy Data has a total of 180 records (30 times 6). 
 
 Tidy Data Column Name | Tidy Data Column Definition
 ----------------------|----------------------------
